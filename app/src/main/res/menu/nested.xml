@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/dest_first"
+        android:title="@string/cmd_first"
+        android:icon="@drawable/ic_first" />
+    <item android:id="@id/dest_second"
+        android:title="@string/cmd_second"
+        android:icon="@drawable/ic_second" />
+    <item android:id="@id/dest_third"
+        android:title="@string/cmd_third"
+        android:icon="@drawable/ic_third" />
+</menu>

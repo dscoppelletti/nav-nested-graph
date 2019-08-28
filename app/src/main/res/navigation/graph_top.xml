@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_top"
+    app:startDestination="@id/dest_top">
+    <fragment android:id="@+id/dest_top"
+        android:name="it.scoppelletti.navnestedgraph.TopFragment"
+        android:label="@string/cmd_top"
+        tools:layout="@layout/top_fragment">
+        <action android:id="@+id/action_nested"
+            app:destination="@id/graph_nested"
+            app:popUpTo="@id/dest_top"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/graph_nested" />
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation Nested  Graph</string>
+    <string name="cmd_top">Top</string>
+    <string name="cmd_nested">Nested</string>
+    <string name="cmd_first">First</string>
+    <string name="cmd_second">Second</string>
+    <string name="cmd_third">Third</string>
+</resources>
