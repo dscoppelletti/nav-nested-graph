@@ -1,6 +1,8 @@
 Back button doesn't work properly between top-level destinations in a nested graph
 ==================================================================================
 
+> This repository is archived: refer to Issue Tracker.
+
 This project comes with two flavors `flat` and `nested`
 
 ## flat
